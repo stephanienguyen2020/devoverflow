@@ -17,11 +17,10 @@
 ![Release](https://img.shields.io/github/release/ladunjexa/nextjs14-devoverflow.svg)
 ![PRs](https://img.shields.io/badge/PRs-welcome-ff69b4.svg?style=shields)
 ![deployment](https://img.shields.io/github/deployments/ladunjexa/nextjs14-devoverflow/Production?logo=vercel&label=Website)
-[![Known Vulnerabilities](https://snyk.io/test/github/ladunjexa/nextjs14-devoverflow/badge.svg)](https://snyk.io/test/github/ladunjexa/nextjs14-devoverflow)
 
 ## 🌐 Live Demo
 
-Explore the live demonstration of the project: [nextjs14-devoverflow](https://nextjs14-devoverflow.vercel.app/)
+Explore the live demonstration of the project: [devoverflow](https://nextjs14-devoverflow.vercel.app/)
 
 ## 📝 Description
 
@@ -223,21 +222,21 @@ nextjs14-devoverflow/
 
 <details><summary><b>DevOverflow</b> is built using the following technologies:</summary>
 
-- [TypeScript](https://www.typescriptlang.org/): TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.
-- [Next.js](https://nextjs.org/): Next.js is a React framework for building server-side rendered and statically generated web applications.
-- [Tailwind CSS](https://tailwindcss.com/): Tailwind CSS is a utility-first CSS framework for rapidly building custom user interfaces.
-- [ESLint](https://eslint.org/): ESLint is a static code analysis tool for identifying problematic patterns found in JavaScript code.
-- [Prettier](https://prettier.io/): Prettier is an opinionated code formatter.
-- [Clerk](https://clerk.dev/): Clerk is a developer-first authentication API that handles all the logic for user sign up, sign in, and more.
-- [Shadcn-UI](https://ui.shadcn.com/): Shadcn UI is a React UI library that helps developers rapidly build modern web applications.
-- [TinyMCE](https://www.tiny.cloud/): TinyMCE is the world's most popular JavaScript library for rich text editing.
-- [MongoDB](https://www.mongodb.com/): MongoDB is a general purpose, document-based, distributed database built for modern application developers and for the cloud era.
-- [Mongoose](https://mongoosejs.com/): Mongoose is a MongoDB object modeling tool designed to work in an asynchronous environment.
-- [Prism.js](https://prismjs.com/): Prism is a lightweight, extensible syntax highlighter, built with modern web standards in mind.
-- [Query String](https://www.npmjs.com/package/query-string): Parse and stringify URL query strings.
-- [Svix](https://svix.com/): Svix is a webhook proxy that allows you to receive webhooks locally.
-- [Zod](https://zod.dev/): Zod is a TypeScript-first schema declaration and validation library.
-- [Vercel](https://vercel.com/): Vercel is a cloud platform for frontend developers, providing the frameworks, workflows, and infrastructure to build a faster, more personalized Web.
+- [TypeScript](https://www.typescriptlang.org/): TypeScript is a JavaScript extension that adds types, compiling down to standard JavaScript.
+- [Next.js](https://nextjs.org/): Next.js offers a framework based on React for crafting web applications with server-side rendering and static site generation capabilities.
+- [Tailwind CSS](https://tailwindcss.com/): Tailwind CSS provides a utility-first approach to CSS, enabling the swift creation of custom interfaces.
+- [ESLint](https://eslint.org/): ESLint serves as a tool for static analysis of JavaScript, spotting and reporting patterns in code that may lead to errors or poor practices.
+- [Prettier](https://prettier.io/): Prettier automatically formats code according to its set style guidelines.
+- [Clerk](https://clerk.dev/): Clerk offers a set of APIs focused on authentication, streamlining the processes of user registration, login, and related functionalities.
+- [Shadcn-UI](https://ui.shadcn.com/): Shadcn UI is a collection of React components designed to facilitate the development of contemporary web applications.
+- [TinyMCE](https://www.tiny.cloud/): TinyMCE is a widely-used JavaScript library for enhancing text editing capabilities in web applications.
+- [MongoDB](https://www.mongodb.com/): MongoDB is a versatile, document-oriented database designed for developers in the modern cloud-centric landscape.
+- [Mongoose](https://mongoosejs.com/): Mongoose is a tool for modeling objects within a MongoDB database, optimized for use in asynchronous operations.
+- [Prism.js](https://prismjs.com/): Prism is designed to be a minimalistic and customizable syntax highlighter, adhering to the latest web standards.
+- [Query String](https://www.npmjs.com/package/query-string): The Query String package provides functionality for parsing and stringifying URL query parameters.
+- [Svix](https://svix.com/): Svix acts as a local proxy for webhooks, enabling easy webhook testing and development.
+- [Zod](https://zod.dev/): Zod introduces a schema definition and validation framework, primarily for TypeScript users.
+- [Vercel](https://vercel.com/): Vercel offers cloud services for front-end developers, with a focus on enhancing performance and personalization on the web.
 
 </details><br/>
 
@@ -260,11 +259,11 @@ In order to install and run this project locally, you would need to have the fol
 **Step 0:**
 
 > [!IMPORTANT]
-> - the application uses Clerk for Authentication and User Management, therefore, you need to create Clerk account [here](https://clerk.dev/) and sets the `CLERK_PUBLISHABLE_KEY` and `CLERK_SECRET_KEY` environment variables in `.env` file. Also, the different URLs for the Clerk sign-in, sign-up, after sign-in and after sign-up pages.
-> - the application uses a MongoDB database, therefore, you need to create a database and connect it to the application, for this, change the `MONGODB_URL` environment variable in `.env` file located in `server` folder.
-> - the application uses TinyMCE, therefore, you need to create TinyMCE account [here](https://www.tiny.cloud/) and sets the `NEXT_PUBLIC_TINYMCE_API_KEY` environment variable in `.env` file.
-> - the application uses OpenAI API, therefore, you need to create OpenAI account [here](https://openai.com/) and sets the `OPENAI_API_KEY` environment variable in `.env` file.
-> - the application uses RapidAPI, therefore, you need to create RapidAPI account [here](https://rapidapi.com/), subscribe to the [JSearch API](https://rapidapi.com/letscrape-6bRBa3QguO5/api/jsearch/) and sets the `RAPIDAPI_API_KEY` environment variable in `.env` file.
+> - Authentication and user management in the application are powered by Clerk. To integrate Clerk, create an account[here](https://clerk.dev/), then configure the `CLERK_PUBLISHABLE_KEY` and `CLERK_SECRET_KEY` in the `.env` file. Additionally, set up the various URLs for Clerk's sign-in and sign-up workflows.
+> - tThe application relies on a MongoDB database. Start by setting up a MongoDB database and link it with the application by updating the `MONGODB_URL` environment variable in `.env` file within the `server` folder.
+> - For rich text editing features, the application incorporates TinyMCE. Create a TinyMCE account [here](https://www.tiny.cloud/) and input the `NEXT_PUBLIC_TINYMCE_API_KEY` environment variable in `.env` file.
+> - The application uses OpenAI API. To use OpenAI's API within the application, register for an OpenAI account [here](https://openai.com/) and specify the `OPENAI_API_KEY` environment variable in `.env` file.
+> - The application makes use of RapidAPI for additional API services. Create a RapidAPI account[here](https://rapidapi.com/), subscribe to the [JSearch API](https://rapidapi.com/letscrape-6bRBa3QguO5/api/jsearch/) and assign the `RAPIDAPI_API_KEY` environment variable in `.env` file.
 
 After following all the instructions above, we'll want to create a new webhook on Clerk. To do this, go to the [Clerk Dashboard](https://dashboard.clerk.dev/), click on the "Webhooks" tab, and then click "Add Endpoint". For the Endpoint URL, enter `http://<PASTE-YOUR-LINK-HERE>/api/webhook/clerk`. For the events, select the "user". Then click "Create" to create the webhook. get the signing secret and set it as `CLERK_WEBHOOK_SECRET` environment variable in `.env` file.
 
@@ -273,7 +272,7 @@ After following all the instructions above, we'll want to create a new webhook o
 Download or clone this repo by using the link below:
 
 ```bash
-git clone https://github.com/ladunjexa/nextjs14-devoverflow.git
+git clone https://github.com/stephanienguyen2020/devoverflow.git
 ```
 
 **Step 2:**
@@ -355,17 +354,7 @@ The easiest way to deploy this Next.js app is to use the [Vercel Platform](https
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fladunjexa%2Fnextjs14-devoverflow)
 
-#### Deploy on Netlify
-
-You can also deploy this Next.js app with [Netlify](https://www.netlify.com/).
-
-[![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ladunjexa/nextjs14-devoverflow)
-
-Check out [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
 ## 🔧 Contributing
-
-[![contributors](https://contrib.rocks/image?repo=ladunjexa/nextjs14-devoverflow)](https://github.com/ladunjexa/nextjs14-devoverflow/graphs/contributors)
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
@@ -380,40 +369,7 @@ To fix a bug or enhance an existing module, follow these steps:
 
 ### 📩 Bug / Feature Request
 
-If you find a bug (failure of a module to execute its intended function), kindly open an issue [here](https://github.com/ladunjexa/nextjs14-devoverflow/issues/new) by including the issue with a title and clear description.
+If you find a bug (failure of a module to execute its intended function), kindly open an issue [here](https://github.com/stephanienguyen2020/devoverflow/issues/new) by including the issue with a title and clear description.
 
-If you'd like to request a new function, feel free to do so by opening an issue [here](https://github.com/ladunjexa/nextjs14-devoverflow/issues/new). Please include sample queries and their corresponding results.
+If you'd like to request a new function, feel free to do so by opening an issue [here](https://github.com/stephanienguyen2020/devoverflow/issues/new). Please include sample queries and their corresponding results.
 
-## 💎 Acknowledgements
-
-I'd like to express my gratitude to the following people who helped me with this project and made it possible:
-
-- [Clerk](https://clerk.dev/)
-- [MongoDB](https://mongodb.com)
-- [Mongoose](https://mongoosejs.com/)
-- [Zod](https://zod.dev/)
-- [Shadcn](https://shadcn.com/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Svix](https://svix.com/)
-- [TinyMCE](https://www.tiny.cloud/)
-- [OpenAI API](https://openai.com/blog/openai-api)
-- [RapidAPI](https://rapidapi.com/)
-- [Vercel](https://vercel.com/)
-- [JavaScript Mastery](https://www.jsmastery.pro/)
-
-## 📚 References
-
-JSMastery. (2023). [Ultimate Next.js 14 Course | Become a top 1% Next.js 14 developer](https://www.jsmastery.pro/ultimate-next-course). E-Learning.
-
-## 📞 Contact Us
-
-[![Telegram](https://img.shields.io/badge/Telegram-@ladunjexa-2CA5E0?style=social&logo=telegram&logoColor=000000)](https://t.me/ladunjexa)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-ladunjexa-blue?style=flat&logo=linkedin&logoColor=b0c0c0&labelColor=363D44)](https://www.linkedin.com/in/lironabutbul)
-[![Instagram](https://img.shields.io/badge/Instagram-ladunjexa-grey?style=flat&logo=instagram&logoColor=b0c0c0&labelColor=8134af)](https://www.instagram.com/ladunjexa)
-[![Discord](https://img.shields.io/badge/Discord-ladunjexa-7289da?style=flat&logo=discord&logoColor=b0c0c0&labelColor=2c2f33)](https://discord.com/users/827996364331810816)
-
-<!-- [![Twitter](https://img.shields.io/twitter/follow/ladunjexa.svg?style=social)](https://twitter.com/intent/follow?screen_name=ladunjexa) -->
-
-## 📋 License
-
-**DevOverflow** is open source software [licensed as MIT](https://opensource.org/license/mit/) and is free to use — See [LICENSE](https://github.com/ladunjexa/nextjs14-devoverflow/blob/main/LICENSE) for more details.
