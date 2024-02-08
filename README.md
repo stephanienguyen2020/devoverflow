@@ -4,11 +4,11 @@
 
 ## 🌐 Live Demo
 
-Explore the live demonstration of the project: [devoverflow](https://nextjs14-devoverflow.vercel.app/)
+Live Demo: [devoverflow](https://nextjs14-devoverflow.vercel.app/)
 
 ## 📝 Description
 
-**DevOverflow** is a complex Q&A platform for developers to ask questions, share knowledge, and learn from each other. It is built with Next.js, Tailwind CSS, Clerk, MongoDB, and more.
+**DevOverflow** is a next-gen StackOverflow clone with AI-generated answers, smart recommendations, global data-fetching, and enhanced user engagement through badges, voting, and intuitive navigation
 
 <details><summary><b>Folder Structure</b></summary>
 
