@@ -2,22 +2,6 @@
 
 <!-- GitHub badges -->
 
-[![Latest release](https://img.shields.io/github/v/release/ladunjexa/nextjs14-devoverflow?label=Latest%20release&style=social)](https://github.com/ladunjexa/nextjs14-devoverflow/releases/tag/v0.1.0)
-[![Stars](https://img.shields.io/github/stars/ladunjexa/nextjs14-devoverflow?style=social)](https://github.com/ladunjexa/nextjs14-devoverflow/stargazers)
-[![Fork](https://img.shields.io/github/forks/ladunjexa/nextjs14-devoverflow?style=social)](https://github.com/ladunjexa/nextjs14-devoverflow/forks)
-[![GitHub commits](https://img.shields.io/github/commit-activity/t/ladunjexa/nextjs14-devoverflow?style=social&logo=github)](https://github.com/ladunjexa/nextjs14-devoverflow/commits)
-[![Pull requests](https://img.shields.io/github/issues-pr/ladunjexa/nextjs14-devoverflow?style=social&logo=github)](https://github.com/ladunjexa/nextjs14-devoverflow/pulls)
-
-![demo](https://i.ibb.co/x7FChRP/Thumbnail.jpg)
-
-[![ladunjexa](https://custom-icon-badges.demolab.com/badge/made%20by%20-ladunjexa-556bf2?logo=github&logoColor=white&labelColor=101827)](https://github.com/luadnjexa)
-[![License](https://img.shields.io/github/license/ladunjexa/nextjs14-devoverflow?color=dddddd&labelColor=000000)](https://github.com/ladunjexa/nextjs14-devoverflow/blob/main/LICENSE)
-[![Top Language](https://img.shields.io/github/languages/top/ladunjexa/nextjs14-devoverflow?logo=github&logoColor=%23007ACC&label=TypeScript)](https://www.typescriptlang.org/)
-[![Contributors](https://img.shields.io/github/contributors/ladunjexa/nextjs14-devoverflow?style=flat&color=orange&label=Contributors)](https://github.com/ladunjexa/nextjs14-devoverflow/graphs/contributors)
-![Release](https://img.shields.io/github/release/ladunjexa/nextjs14-devoverflow.svg)
-![PRs](https://img.shields.io/badge/PRs-welcome-ff69b4.svg?style=shields)
-![deployment](https://img.shields.io/github/deployments/ladunjexa/nextjs14-devoverflow/Production?logo=vercel&label=Website)
-
 ## 🌐 Live Demo
 
 Explore the live demonstration of the project: [devoverflow](https://nextjs14-devoverflow.vercel.app/)
