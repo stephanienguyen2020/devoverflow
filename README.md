@@ -1,4 +1,4 @@
-# Next.js 14 DevOverflow
+# DevOverflow
 
 <!-- GitHub badges -->
 
@@ -13,7 +13,7 @@ Explore the live demonstration of the project: [devoverflow](https://nextjs14-de
 <details><summary><b>Folder Structure</b></summary>
 
 ```bash
-nextjs14-devoverflow/
+devoverflow/
 ├── app/
 ├   ├── favicon.ico
 ├   ├── globals.css
